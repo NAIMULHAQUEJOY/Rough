@@ -2722,11 +2722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\AIUB Classes\\10 Semester\\Adv Dot Net\\Lab\\in_task-1\\first_task\\first_task\\first_task.csproj",
+      "projectUniqueName": "H:\\AIUB Classes\\Git Upload\\Rough\\first_task\\first_task\\first_task.csproj",
       "projectName": "first_task",
-      "projectPath": "H:\\AIUB Classes\\10 Semester\\Adv Dot Net\\Lab\\in_task-1\\first_task\\first_task\\first_task.csproj",
+      "projectPath": "H:\\AIUB Classes\\Git Upload\\Rough\\first_task\\first_task\\first_task.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "H:\\AIUB Classes\\10 Semester\\Adv Dot Net\\Lab\\in_task-1\\first_task\\first_task\\obj\\",
+      "outputPath": "H:\\AIUB Classes\\Git Upload\\Rough\\first_task\\first_task\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -4,6 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<EF_DataContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Ef_Postgres_Db"))
+);
+
+
 // Add services to the container.
 
 builder.Services.AddControllers();
