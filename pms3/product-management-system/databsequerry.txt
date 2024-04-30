@@ -1,0 +1,23 @@
+CREATE TABLE "user" (
+  "id" SERIAL PRIMARY KEY,
+  "username" VARCHAR NOT NULL,
+  "password" VARCHAR NOT NULL,
+  "email" VARCHAR NOT NULL,
+  "role" VARCHAR NOT NULL
+);
+
+CREATE TABLE "product" (
+  "id" SERIAL PRIMARY KEY,
+  "name" VARCHAR NOT NULL,
+  "description" VARCHAR NOT NULL,
+  "price" DECIMAL NOT NULL
+);
+
+CREATE TABLE "cart" (
+  "id" SERIAL PRIMARY KEY,
+  "userId" INTEGER NOT NULL,
+  "productId" INTEGER NOT NULL,
+  "quantity" INTEGER NOT NULL,
+  CONSTRAINT "FK_Cart_User" FOREIGN KEY ("userId") REFERENCES "user" ("id"),
+  CONSTRAINT "FK_Cart_Product" FOREIGN KEY ("productId") REFERENCES "product" ("id")
+);
